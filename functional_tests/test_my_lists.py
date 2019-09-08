@@ -1,5 +1,4 @@
 from django.conf import settings
-from django.contrib.sessions.backends.db import SessionStore
 
 from .base import FunctionalTest
 from .server_tools import create_session_on_server
